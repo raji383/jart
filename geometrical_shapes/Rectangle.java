@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class Rectangle implements Drawable {
     
-    private Point topLeft;
-    private Point bottomRight;
-    private Color color;
+    public  Point topLeft;
+    public  Point bottomRight;
+    public  Color color;
 
     public Rectangle(Point topLeft, Point bottomRight) {
         this.topLeft = topLeft;
