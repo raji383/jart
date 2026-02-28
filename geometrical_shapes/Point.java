@@ -3,7 +3,7 @@ package geometrical_shapes;
 import java.awt.Color;
 import java.util.Random;
 
-public  class Point implements Drawable {
+public class Point implements Drawable {
 
     int x, y;
 

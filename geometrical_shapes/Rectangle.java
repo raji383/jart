@@ -4,10 +4,10 @@ import java.awt.Color;
 import java.util.Random;
 
 public class Rectangle implements Drawable {
-    
-    public  Point topLeft;
-    public  Point bottomRight;
-    public  Color color;
+
+    public Point topLeft;
+    public Point bottomRight;
+    public Color color;
 
     public Rectangle(Point topLeft, Point bottomRight) {
         this.topLeft = topLeft;

@@ -10,7 +10,7 @@ public class Triangle {
     public Point point3;
     public Color color;
 
-    public Triangle(Point point1, Point point2,Point point3) {
+    public Triangle(Point point1, Point point2, Point point3) {
         this.point1 = point1;
         this.point2 = point2;
         this.point3 = point3;
@@ -25,6 +25,7 @@ public class Triangle {
         line1.draw(displayable, this.color);
         line2.draw(displayable, this.color);
     }
+
     public Color getColor() {
         Random rand = new Random();
 

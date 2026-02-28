@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class Line {
 
-    public  Point a;
-    public  Point b;
+    public Point a;
+    public Point b;
 
     public Line(Point a, Point b) {
         this.a = a;
@@ -20,16 +20,17 @@ public class Line {
             int x = (int) (a.x + t * (b.x - a.x));
             int y = (int) (a.y + t * (b.y - a.y));
             displayable.display(x, y, color);
-            t += 0.001; 
+            t += 0.001;
         }
     }
-       public void draw(Displayable displayable, Color color) {
+
+    public void draw(Displayable displayable, Color color) {
         double t = 0.0;
         while (t <= 1.0) {
             int x = (int) (a.x + t * (b.x - a.x));
             int y = (int) (a.y + t * (b.y - a.y));
             displayable.display(x, y, color);
-            t += 0.001; 
+            t += 0.001;
         }
     }
 
