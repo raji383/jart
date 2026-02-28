@@ -25,7 +25,6 @@ public class Triangle {
         line1.draw(displayable, this.color);
         line2.draw(displayable, this.color);
     }
-
     public Color getColor() {
         Random rand = new Random();
 

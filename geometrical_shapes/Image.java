@@ -7,7 +7,7 @@ import javax.imageio.ImageIO;
 
 public class Image implements Displayable {
 
-    private BufferedImage image;
+    public BufferedImage image;
 
     public Image(int width, int height) {
         image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
